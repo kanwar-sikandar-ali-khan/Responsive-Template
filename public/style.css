@@ -1,0 +1,369 @@
+body{
+    background-color: #E6E6FA;
+
+    /* background-color:#F5F5F5; */
+}
+.a{
+    border: 5px solid red;
+}
+
+.b{
+    border: 3px solid black;
+}
+
+.c{
+    border: 4px solid yellow;
+}
+
+
+
+
+
+
+.fisrtLine{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+ 
+  
+ 
+}
+
+.W-text{
+  
+
+    background-color: #187bcd;
+    display: inline-block;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    padding-left:10px;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+.pppw{
+   
+    margin-right: 8px;
+    margin-top: 10px;
+    color: white;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Bonbon', cursive;
+    font-size:x-large;
+    font-weight:bolder;
+    }
+
+/* 
+.imgdiv{
+    height:300px ;
+    width:910px ;
+    margin-left:100px ;
+    margin-right: 50px;
+} */
+
+
+
+.lastCol{
+    height: 300px;
+}
+.workangl{
+    font-family: 'Pacifico', cursive;
+    color: gray;
+    font-size:x-large;
+}
+
+.workangle2{
+    font-weight:900;
+    color: dimgray;
+    font-family: 'Lato', sans-serif;  
+    font-size: larger;
+    
+}
+.betterExp{
+    color: gray;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;  
+}
+
+.ppp {
+   
+margin-right: 8px;
+margin-top: 9px;
+color: white;
+}
+
+.espan1 {
+    background-color: #3b5998;
+    display: inline-block;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    padding-left:9px;
+    box-sizing: border-box;
+    color: white;
+    margin-right: 20px;
+}
+
+.espan2 {
+    background-color: #00acee;
+    display: inline-block;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    padding-left:10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.espan3 {
+    background-color: #0077b5;
+    display: inline-block;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    padding-left:10px;
+    box-sizing: border-box;
+    color: white;
+    margin-left: 20px;
+}
+
+
+a i {
+    transition: all 0.3s liner;
+}
+
+a:hover i {
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img{
+        width: 300px;
+        height: 180px;
+    }
+    .secCol{
+        padding-right: 40px;
+        padding-left: 40px;
+        
+        }
+
+
+        
+        .imgdiv{
+            height:180px ;
+            width: 300px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+        .newimg{
+            height: 110px;
+            width: 130px;
+            margin-top: 35px;
+        }
+    
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img{
+        width: 400px;
+        height: 220px;
+    }
+    
+    .secCol{
+        padding-right: 40px;
+        padding-left: 40px;
+        
+        }
+
+
+        
+        .imgdiv{
+            height:220px ;
+            width: 400px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+
+        .newimg{
+            height: 150px;
+            width: 250px;
+            margin-top: 34px;
+        }
+        
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img{
+        width: 550px;
+        height: 240px;
+    }
+    
+    .secCol{
+        padding-right: 70px;
+        padding-left: 70px;
+        
+        }
+
+        
+        .imgdiv{
+            height:240px ;
+            width:550px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+
+        .newimg{
+            height: 170px;
+            width: 290px;
+        }
+        
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img{
+        width: 800px;
+        height: 280px;
+    }
+    .secCol{
+        padding-right: 90px;
+        padding-left: 90px;
+        
+        }
+        
+        .imgdiv{
+            height:280px ;
+            width: 800px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+
+        .newimg{
+            height: 210px;
+            width: 310px;
+        }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    
+    .img{
+        width: 900px;
+        height: 300px;
+    }
+
+    .secCol{
+        padding-right: 120px;
+        padding-left: 120px;
+        
+        }
+
+        .imgdiv{
+            height:300px ;
+            width: 900px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+            border-radius: 4px;
+              
+        }
+
+
+       
+
+        
+}
+
+
+/*SE Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 400px) {
+    .img{
+        width: 200px;
+        height: 110px;
+    }
+    .secCol{
+        padding-right: 40px;
+        padding-left: 40px;
+        
+        }
+        .fisrtLine{
+            font-size:large;
+        }
+
+        .secondLine{
+            font-size:small;
+        }
+
+
+        
+        .imgdiv{
+            height:110px ;
+            width: 200px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+
+        .newimg{
+            height: 70px;
+            width: 90px;
+            margin-top: 21px;
+        }
+    
+}
+
+/*Glaxy Fold Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 300px) {
+    .img{
+        width: 130px;
+        height: 110px;
+    }
+    .secCol{
+        padding-right: 40px;
+        padding-left: 40px;
+        
+        }
+
+        .fisrtLine{
+            font-size:medium;
+        }
+
+        .secondLine{
+            font-size:xx-small;
+        }
+        
+    
+        .imgdiv{
+            height:110px ;
+            width: 130px;
+            margin: 0px auto 0px auto;
+            border-radius: 4px;
+              
+        }
+
+        .newimg{
+            height: 60px;
+            width: 80px;
+            margin-top: 25px;
+        }
+}
